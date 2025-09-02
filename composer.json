@@ -1,5 +1,5 @@
 {
-    "name": "gwk/dynamo-session-bundle",
+    "name": "usabilla/dynamo-session-bundle",
     "description": "DynamoDB Session Handler Bundle for Symfony 2",
     "keywords": ["symfony", "bundle", "session", "aws", "dynamodb"],
     "authors": [
