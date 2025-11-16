@@ -10,13 +10,16 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": ">=2.1.0",
-        "aws/aws-sdk-php": ">=3.0"
+        "symfony/symfony": "^3.4|^4.4",
+        "aws/aws-sdk-php": "^3.0"
     },
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-0": { "GWK\\DynamoSessionBundle": "" }
     },
-    "target-dir": "GWK/DynamoSessionBundle"
+    "target-dir": "GWK/DynamoSessionBundle",
+    "require-dev": {
+        "rector/rector": "^2.2"
+    }
 }
