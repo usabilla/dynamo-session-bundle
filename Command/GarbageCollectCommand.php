@@ -25,7 +25,7 @@ class GarbageCollectCommand extends ContainerAwareCommand
             ->setDescription("Clear expired sessions from DynamoDB");
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $container = $this->getContainer();
 
